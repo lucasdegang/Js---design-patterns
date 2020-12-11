@@ -1,0 +1,26 @@
+﻿/* Parallax
+-------------------------------------------------- */
+.parallax {
+    /* The image used */
+    background-image: url("../images/carro.jpg");
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/carro2.jpg");
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/carro3.jpg");
+}
+
+.parallax, .parallax2, .parallax3 {
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
